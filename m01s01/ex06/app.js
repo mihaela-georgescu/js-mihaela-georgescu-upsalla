@@ -1,6 +1,6 @@
-var inputLength = document.getElementById('length');
-var inputWidth = document.getElementById('width');
+var inputRadius = document.getElementById('radius');
 var elementResult = document.getElementById('result');
+const pi = 3.141592653589793238462643383279502884197;
 var form = document.querySelector('form');
 
 form.addEventListener(
@@ -8,11 +8,10 @@ form.addEventListener(
   function (event) {
     event.preventDefault();
 
-    var length = inputLength.value || 0;
-    var width = inputWidth.value || 0;
+    var radius = inputRadius.value || 0;
     var result = 0;
 
-    result = length * width;
+    result = 4 * pi * Math.pow(radius, 2);
 
     elementResult.innerText = result;
   },
