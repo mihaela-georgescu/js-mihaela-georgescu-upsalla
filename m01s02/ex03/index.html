@@ -17,12 +17,46 @@
   <script src="https://tab.pixellab.ro/pixeltab-top.js"></script>
 </head>
 
-<body onload="console.log(prompt('Care este numele tau?'))">
+
+<!-- Folosind metoda prompt() pe evenimentul onload al elementului body, afiseaza o alerta de tip prompt cu intrebarea: “Care este numele tau?”,
+     apoi afiseaza raspunsul utilizatorului in consola. -->
+
+<!-- Adauga folosind simbolul ; pe eventul onload al elementului body o alerta care afiseaza textul: Bine ai venit pe acest site! -->
+
+<body onload="console.log(prompt('Care este numele tau?')); alert('Bine ai venit pe acest site!')">
+  <!-- Adauga un buton cu valoarea “Hello” pentru atributul title si cu textul “Hello!” si foloseste metoda alert() pentru a afisa mesajul
+    “Bine ai venit la Pixellab!” la click pe acest buton.
+  -->
   <button
     title="Hello"
     onclick="alert('Bine ai venit la Pixellab!')"
   >
     Hello!</button>
+
+  <!-- Adauga un alt buton cu titlul “Apasa” si textul “Acest buton”, iar prin atributul lui onclick afiseaza o alerta cu textul:
+    “Tocmai ai apasat pe acest buton!”
+  -->
+  <button
+    title="Apasa"
+    onclick="alert('Tocmai ai apasat pe acest buton!')"
+  >
+    Acest buton
+  </button>
+
+  <!-- Adauga un alt buton cu titlul si textul “Suma” buton pe al carui atribut onclick sa afisezi in consola suma numerelor 20 si 156.  -->
+  <button
+    title="Suma"
+    onclick="console.log(20 + 156)"
+  >Suma</button>
+
+  <!-- Adauga un alt buton cu titlul “Apasa-l” si textul “Apasa-ma!”pe al carui atribut onmouseover sa afisezi in consola textul:
+   “Apasa-ma!” Pe acest buton afiseaza la click o alerta cu: M-ai apasat!
+  -->
+  <button
+    title="Apasa-l"
+    onmouseover="console.log('Apasa-ma!')"
+    onclick="alert('M-ai apasat!')"
+  >Apasa-ma!</button>
 
   <div
     class="pixeltab-host"

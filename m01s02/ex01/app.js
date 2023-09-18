@@ -1,1 +1,1 @@
-console.log('my main program');
+console.log('My main program');

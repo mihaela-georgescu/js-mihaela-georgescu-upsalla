@@ -2,11 +2,12 @@ var object = {
   name: 'Michael',
   surname: 'Scott',
   age: 40,
-  petOwner: true,
+  petOwner: false,
+  carOwner: true,
 };
 
 console.warn(`
-Ma numesc xxx yyy si am xx ani.
+  Ma numesc xxx yyy si am xx ani.
 `);
 console.log(
   'Ma numesc ' +
@@ -27,5 +28,15 @@ console.warn(`
 console.log((2023 - object.age).toString());
 
 console.warn(`
-  Adauga o cheie noua de tip boolean cu numele petOwner (observa capitalizarea).
+  Afiseaza fraza “xxx yyy are xx ani.” in consola folosind operatorul de concatenare.
 `);
+console.log(
+  object.name + ' ' + object.surname + ' are ' + object.age + ' ani.',
+);
+
+console.warn(`
+  Afiseaza fraza “xxx s-a nascut in aaaa.” Foloseste tot anul curent pentru a scadea varsta.
+`);
+console.log(
+  object.name + ' s-a nascut in ' + (2023 - object.age).toString() + '.',
+);
