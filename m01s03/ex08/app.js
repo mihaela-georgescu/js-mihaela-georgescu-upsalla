@@ -27,7 +27,7 @@ var cart = {
 };
 
 console.warn(`
-Afiseaza propozitia “Numele meu este xxx yyy iar emailul meu este: eee.”
+  Afiseaza propozitia “Numele meu este xxx yyy iar emailul meu este: eee.”
 `);
 console.log(
   'Numele meu este ' +
@@ -40,8 +40,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Utilizatorul cu idul iii are xxx tipuri de produse in cartul cu
-idul ccc.” folosind proprietatea length pe arrayul de produse
+  Afiseaza propozitia “Utilizatorul cu idul iii are xxx tipuri de produse in cartul cu
+  idul ccc.” folosind proprietatea length pe arrayul de produse
 `);
 console.log(
   'Utilizatorul cu idul ' +
@@ -53,9 +53,9 @@ console.log(
     '.',
 );
 
-console.warn(`
-Afiseaza propozitia “Al treilea produs pe care il cumpara xxx este ppp.”
-`);
+console.warn(
+  `Afiseaza propozitia “Al treilea produs pe care il cumpara xxx este ppp.”`,
+);
 console.log(
   'Al treilea produs pe care il cumpara ' +
     cart.firstName +
@@ -65,8 +65,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “xxx yyy cumpara ppp produse in total”; folosind accesul direct
-la fiecare din obiectele din arrayul products.
+  Afiseaza propozitia “xxx yyy cumpara ppp produse in total”; folosind accesul direct
+  la fiecare din obiectele din arrayul products.
 `);
 console.log(
   cart.firstName +
@@ -80,8 +80,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Sunt xxx si cumpar produsele p1, p2 si p3.”; folosind accesul
-direct la fiecare din obiectele din arrayul products.
+  Afiseaza propozitia “Sunt xxx si cumpar produsele p1, p2 si p3.”; folosind accesul
+  direct la fiecare din obiectele din arrayul products.
 `);
 console.log(
   'Sunt ' +
@@ -96,9 +96,9 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Valoarea totala a cartului cu idul iii este ttt.”; folosind
-accesul direct la fiecare din obiectele din arrayul products
-(price, quantity). (product[0].price * product[0].quantity )
+  Afiseaza propozitia “Valoarea totala a cartului cu idul iii este ttt.”; folosind accesul
+  direct la fiecare din obiectele din arrayul products
+  (price, quantity). (product[0].price * product[0].quantity )
 `);
 console.log(
   'Valoarea totala a cartului cu idul ' +
@@ -111,8 +111,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia ”xxx yyy a cumparat produsul ppp in cantitatea ccc in valoare
-totala de ttt.” Foloseste produsul de pe indexul 0.
+  Afiseaza propozitia ”xxx yyy a cumparat produsul ppp in cantitatea ccc in valoare
+  totala de ttt.” Foloseste produsul de pe indexul 0.
 `);
 console.log(
   cart.firstName +

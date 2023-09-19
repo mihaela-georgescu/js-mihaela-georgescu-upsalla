@@ -6,9 +6,7 @@ var object = {
   carOwner: true,
 };
 
-console.warn(`
-  Ma numesc xxx yyy si am xx ani.
-`);
+console.warn(`Ma numesc xxx yyy si am xx ani.`);
 console.log(
   'Ma numesc ' +
     object.name +

@@ -24,8 +24,8 @@ var person = {
 };
 
 console.warn(`
-Afiseaza propozitia: “Ma numesc xxx yyy si stiu html si css.” Foloseste notatia cu
-paranteze patrate
+  Afiseaza propozitia: “Ma numesc xxx yyy si stiu html si css.” Foloseste notatia cu
+  paranteze patrate
 `);
 console.log(
   'Ma numesc ' +
@@ -40,14 +40,14 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Sunt xxx si acum invat JavaScript.” Nu folosi valoarea din arrayul
- de skills.
+  Afiseaza propozitia “Sunt xxx si acum invat JavaScript.” Nu folosi valoarea din arrayul
+  de skills.
 `);
 console.log('Sunt ' + person.name + ' si acum invat JavaScript.');
 
 console.warn(`
-Afiseaza propozitia “Am x prieteni: Larry, Steven si Carol.” Foloseste proprietatea
- length si apeleaza direct proprietatile name ale obiectelor.
+  Afiseaza propozitia “Am x prieteni: Larry, Steven si Carol.” Foloseste proprietatea
+  length si apeleaza direct proprietatile name ale obiectelor.
 `);
 console.log(
   'Am ' +
@@ -62,8 +62,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia: “Ma numesc xxx yyy si vreau sa invat javascript.” Foloseste notatia
- cu paranteze patrate.
+  Afiseaza propozitia: “Ma numesc xxx yyy si vreau sa invat javascript.” Foloseste notatia
+  cu paranteze patrate.
 `);
 console.log(
   'Ma numesc ' +
@@ -74,14 +74,14 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Sunt xxx si stiu HTML si CSS.”. Nu folosi valoarea din arrayul de
- skills.
+  Afiseaza propozitia “Sunt xxx si stiu HTML si CSS.”. Nu folosi valoarea din arrayul de
+  skills.
 `);
 console.log('Sunt ' + person.name + ' si stiu HTML si CSS.');
 
 console.warn(`
-Afiseaza propozitia “Am x prieteni: Larryson, Stevenson si Carolson.”. Foloseste
- proprietatea length si apeleaza direct proprietatile name ale obiectelor.
+  Afiseaza propozitia “Am x prieteni: Larryson, Stevenson si Carolson.”. Foloseste
+  proprietatea length si apeleaza direct proprietatile name ale obiectelor.
 `);
 console.log(
   'Am ' +
@@ -96,8 +96,8 @@ console.log(
 );
 
 console.warn(`
-Afiseaza propozitia “Numele meu este xxx yyy, am zz ani si n prieteni.”. Foloseste
- metoda length pentru a calcula lungimea arrayului de prieteni.
+  Afiseaza propozitia “Numele meu este xxx yyy, am zz ani si n prieteni.”. Foloseste
+  metoda length pentru a calcula lungimea arrayului de prieteni.
 `);
 console.log(
   'Numele meu este ' +
