@@ -1,1 +1,1 @@
-console.log('3rd party scripts...');
+console.log('3rd party scripts ...');
