@@ -125,18 +125,12 @@ console.warn(`
  ani. Intre Dragos si Steven... "
 `);
 var message = '';
-var diff = 0;
 
-person.friends.forEach(function (friend) {
-  diff = Math.abs(person.age - friend.age);
-  message +=
-    'Intre ' +
-    person.name +
-    ' si ' +
-    friend.name +
-    ' este o diferenta de ' +
-    diff +
-    ' ani. ';
+person.friends.forEach(function (friend, index, friends) {
+  var diff = Math.abs(person.age - friend.age);
+  var punctuation = friends.length - 1 === index ? '.' : '. ';
+
+  message += `Intre ${person.name} si ${friend.name} este o diferenta de ${diff} ani${punctuation}`;
 });
 console.log(message.trim());
 
@@ -144,10 +138,20 @@ console.warn(`
  Folosind metoda reverse si apoi forEach, afiseaza in ordine
  inversa elementele arrayului skills.
 `);
-var reverseSkills = person.skills.toReversed();
-reverseSkills.forEach(function (skill) {
-  console.log(skill);
-});
+// slice fara paramteri creeaza O CLONA
+// slice without parameters will CLONE the array
+person.skills
+  .slice()
+  .reverse()
+  .forEach(function (skill) {
+    console.log(skill);
+  });
+
+// alta varianta: toReversed()
+// var reverseSkills = person.skills.toReversed();
+// reverseSkills.forEach(function (skill) {
+//   console.log(skill);
+// });
 
 console.warn(`
 Folosind obiectul person si forEach, afiseaza in consola skillurile pe care le are persoana,
