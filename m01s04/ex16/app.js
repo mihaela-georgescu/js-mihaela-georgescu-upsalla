@@ -151,14 +151,14 @@ console.log(
 console.warn(`
 Afiseaza propozitia “Totalul pretului per produs din cart este xxx.”
 `);
-let totalPriceperProduct = 0;
+let totalPricePerProduct = 0;
 
 for (let i = 0; i < numberOfProducts; i++) {
-  totalPriceperProduct += cart.products[i].price;
+  totalPricePerProduct += cart.products[i].price;
 }
 
 console.log(
-  `Totalul pretului per produs din cart este ${totalPriceperProduct}.`,
+  `Totalul pretului per produs din cart este ${totalPricePerProduct}.`,
 );
 
 console.warn(`
