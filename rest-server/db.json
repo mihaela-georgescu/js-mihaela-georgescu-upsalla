@@ -1,3 +1,31 @@
 {
-  "persons": []
+  "persons": [
+    {
+      "id": "almvsd",
+      "name": "Nylon",
+      "surname": "Windbreaker"
+    },
+    {
+      "id": "1698954396766",
+      "name": "x",
+      "surname": "y"
+    },
+    {
+      "id": "1698955362145",
+      "name": "Steven",
+      "surname": "Stevenson"
+    },
+    {
+      "id": "1699559683155",
+      "name": "Gabriel",
+      "surname": "Gabrielescu"
+    }
+  ],
+  "cars": [
+    {
+      "make": "Audi",
+      "color": "black",
+      "wheels": 4
+    }
+  ]
 }
