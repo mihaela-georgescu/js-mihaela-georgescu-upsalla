@@ -1,6 +1,4 @@
-function paragraphLog(...arguments) {
-  let message = '';
-  let punctuation = ', ';
+function paragraphLog() {
   const logContainerClass = 'logs';
   let logContainer = document.querySelector('.' + logContainerClass);
 
@@ -10,23 +8,27 @@ function paragraphLog(...arguments) {
     document.body.append(logContainer);
   }
 
-  for (let i = 0; i < arguments.length; i++) {
-    if (i === arguments.length - 1) {
-      punctuation = '';
-    }
+  const messageParagraph = document.createElement('p');
 
-    message += arguments[i] + punctuation;
+  let message = '';
+  let punctuation = ', ';
+
+  if (arguments.length === 1) {
+    message = arguments;
+  } else {
+    for (let i = 0; i < arguments.length; i++) {
+      if (i === arguments[i] - 1) {
+        punctuation = '';
+      }
+
+      message += arguments[i] + punctuation;
+    }
   }
 
-  const messageParagraph = document.createElement('p');
   messageParagraph.innerText = message;
   logContainer.append(messageParagraph);
 }
 
 console.domLog = paragraphLog;
 
-console.domLog(
-  'Nu apar in consola.',
-  'Nici eu nu apar in consola.',
-  'Nici eu.',
-);
+console.domLog('Nu apar in consola.', 'Nici eu.', 'Nici eu.');

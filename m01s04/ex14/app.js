@@ -60,7 +60,7 @@ Intre Dragos si Mars… ” (repeta pentru toate intrarile din array).
 `);
 
 for (let i = 0; i < person.pets.length; i++) {
-  let ageDiff = Math.abs(2023 - person.birthYear - person.pets[i].age);
+  let ageDiff = Math.abs(2024 - person.birthYear - person.pets[i].age);
   console.log(
     `Intre ${person.firstName} si ${person.pets[i].name} este o diferenta de ${ageDiff} ani.`,
   );
@@ -86,7 +86,7 @@ for (let i = 0; i < person.pets.length; i++) {
   }
 }
 
-let ageDiff = Math.abs(2023 - person.birthYear - oldestPet.age);
+let ageDiff = Math.abs(2024 - person.birthYear - oldestPet.age);
 
 console.log(
   `${oldestPet.name} este cel mai batran animal pe care il am, dar intre noi este o diferenta de ${ageDiff} ani.`,

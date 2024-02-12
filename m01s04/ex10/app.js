@@ -99,7 +99,7 @@ var sumBirthYear = 0;
 
 person.friends.forEach(function (friend, index) {
   if (friend.age % 2 !== 0) {
-    sumBirthYear += 2023 - friend.age;
+    sumBirthYear += 2024 - friend.age;
   }
 });
 
@@ -202,7 +202,7 @@ console.warn(`
 var sumBirthYear = 0;
 
 person.friends.forEach(function (friend) {
-  sumBirthYear += 2023 - friend.age;
+  sumBirthYear += 2024 - friend.age;
 });
 
 console.log(sumBirthYear.toString());

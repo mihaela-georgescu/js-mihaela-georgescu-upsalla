@@ -62,13 +62,13 @@ console.log(
 console.warn(`
   Calculeaza si afiseaza (folosind anul curent), anul de nastere al animalului de pe indexul 2.
 `);
-console.log((2023 - person.pets[2].age).toString());
+console.log((2024 - person.pets[2].age).toString());
 
 console.warn(`
   Calculeaza si salveaza in variabila difference diferenta de ani dintre persoana si animalul
   de pe pozitia 0 si afiseaza aceasta diferenta. Foloseste anul curent.
 `);
-var difference = 2023 - person.birthYear - person.pets[0].age;
+var difference = 2024 - person.birthYear - person.pets[0].age;
 console.log(difference.toString());
 
 console.warn(
@@ -126,11 +126,11 @@ prop03Element.textContent = textToShow03;
 var prop04Element = document.getElementById('prop04');
 var textToShow04 =
   'Animalele mele s-au nascut in ' +
-  (2023 - age1) +
+  (2024 - age1) +
   ', ' +
-  (2023 - age2) +
+  (2024 - age2) +
   ', ' +
   ' respectiv ' +
-  (2023 - age3) +
+  (2024 - age3) +
   '.';
 prop04Element.textContent = textToShow04;

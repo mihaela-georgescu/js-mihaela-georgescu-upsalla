@@ -23,7 +23,7 @@ console.warn(`
   Afiseaza anul in care te-ai nascut scazand varsta pe care ai trecut-o in obiect din anul curent
   (un proces numit hardcodare).
 `);
-console.log((2023 - object.age).toString());
+console.log((2024 - object.age).toString());
 
 console.warn(`
   Afiseaza fraza “xxx yyy are xx ani.” in consola folosind operatorul de concatenare.
@@ -36,5 +36,5 @@ console.warn(`
   Afiseaza fraza “xxx s-a nascut in aaaa.” Foloseste tot anul curent pentru a scadea varsta.
 `);
 console.log(
-  object.name + ' s-a nascut in ' + (2023 - object.age).toString() + '.',
+  object.name + ' s-a nascut in ' + (2024 - object.age).toString() + '.',
 );

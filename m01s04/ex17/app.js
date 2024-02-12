@@ -74,7 +74,7 @@ Folosind anul curent afiseaza propozitii de forma “Siteul foloseste serviciul 
 `);
 for (let i = 0; i < services.length; i++) {
   let service = services[i];
-  let usage = 2023 - service.adoption;
+  let usage = 2024 - service.adoption;
   console.log(`Siteul foloseste serviciul ${service.name} de ${usage} ani.`);
 }
 
@@ -88,6 +88,6 @@ for (let i = 0; i < services.length; i++) {
   }
 }
 
-let longestUsage = 2023 - oldestService.adoption;
+let longestUsage = 2024 - oldestService.adoption;
 
 console.log(`Folosim ${oldestService.name} de ${longestUsage} ani.`);

@@ -100,7 +100,7 @@ var sumBirthYear = 0;
 var message = 'Suma anilor de nastere este: ';
 
 for (var i = 0; i < person.friends.length; i++) {
-  var birthYear = 2023 - person.friends[i].age;
+  var birthYear = 2024 - person.friends[i].age;
   sumBirthYear += birthYear;
 }
 
